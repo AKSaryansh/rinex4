@@ -1,4 +1,4 @@
-import streanlit as st
+import streamlit as st
 import joblib
 model = joblib.load('spam-ham')
 st.title('Spam-Ham Classifier')
